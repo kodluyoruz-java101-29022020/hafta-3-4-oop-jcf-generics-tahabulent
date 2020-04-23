@@ -1,6 +1,6 @@
 package Question1.User;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 import Question1.Address.IAddress;
@@ -10,6 +10,7 @@ public class User {
 	private String name;
 	private String surname;
 	private String email;
+	private String password;
 	private String job;
 	private int age;
 	private List<IAddress> adress;
@@ -19,11 +20,11 @@ public class User {
 
 	}
 
-	public User(String name, String surname, String email, String job, int age, List<IAddress> adress, Date lastLogin) {
-
+	public User(String name, String surname, String email, String password, String job, int age, List<IAddress> adress, Date lastLogin) {
 		this.name = name;
 		this.surname = surname;
 		this.email = email;
+		this.password= password;
 		this.job = job;
 		this.age = age;
 		this.adress = adress;
@@ -52,6 +53,14 @@ public class User {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public String getJob() {

@@ -1,11 +1,17 @@
 package Question1.CustomerType;
 
+import Question1.Insurance.Insurance;
+
 public class Individual extends Account {
 
 	@Override
-	String getAccountInfo() {
+	public void addInsurance(Account account, Insurance insurance) {
 
-		return null;
 	}
 
+	@Override
+	public int compareTo(Account o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

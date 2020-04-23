@@ -1,4 +1,4 @@
-package Question1.Address.Enums;
+package Question1.Enums;
 
 public enum AuthenticationStatus {
 	SUCCESS, FAIL,

@@ -1,4 +1,4 @@
-package Question1.Address.Insurance;
+package Question1.Insurance;
 
 import java.sql.Date;
 

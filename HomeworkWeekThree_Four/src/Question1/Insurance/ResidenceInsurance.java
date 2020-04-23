@@ -1,10 +1,10 @@
-package Question1.Address.Insurance;
+package Question1.Insurance;
 
 import java.sql.Date;
 
-public class TravelInsurance extends Insurance {
+public class ResidenceInsurance extends Insurance {
 
-	public TravelInsurance(String insuranceName, double price, Date startDate, Date finishDate) {
+	public ResidenceInsurance(String insuranceName, double price, Date startDate, Date finishDate) {
 		super(insuranceName, price, startDate, finishDate);
 		// TODO Auto-generated constructor stub
 	}
